@@ -56,53 +56,43 @@ Truffle: Install Truffle for compiling and deploying smart contracts.
 Installation
 Backend
 Clone the repository:
-bash
-Copy code
+
 git clone https://github.com/yourusername/e-vote
 cd e-vote/backend
 Install dependencies:
-bash
-Copy code
+
 npm install
 Create a .env file in the backend/ directory and add the following:
-bash
-Copy code
+
 MONGO_URI=your_mongo_db_url
 SENDGRID_API_KEY=your_sendgrid_api_key
 ETHEREUM_NODE_URL=your_ethereum_node_url
 Start the server:
-bash
-Copy code
+
 npm start
 Frontend
 Navigate to the frontend directory:
-bash
-Copy code
-cd ../frontend
+
+cd ../frontend 
+
 Install dependencies:
-bash
-Copy code
+
 npm install
 Run the development server:
-bash
-Copy code
+
 npm start
 Smart Contracts
 Go to the smart contract directory:
-bash
-Copy code
+
 cd ../contracts
 Install dependencies:
-bash
-Copy code
+
 npm install
 Compile the smart contract:
-bash
-Copy code
+
 truffle compile
 Deploy the contract to an Ethereum test network:
-bash
-Copy code
+
 truffle migrate --network ropsten
 Usage
 Open your browser and navigate to http://localhost:3000 for the frontend.
